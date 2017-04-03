@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>This section relates to the field spacing arrangements during Concept Selection stage of the project (PGS Gate 2.1). The intent here is to allow the end user to easily and efficiently consider the field spacing to ensure minimal changes during more mature stages of the project.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>During the concept selection stage of the project, the end user must consider:
+
+    -  The siting of the proposed facility in relation to surrounding areas, in particular where the proposed
+ facility is in close proximity to public and 3rd parties, and
+    -  Facility layout and segregation arrangements for the proposed facility.
+
+The principal implications associated with the concept field spacing are as follows:
+
+    -  In relation to Facility Siting: a major accident at a facility has the potential to impact surrounding areas. 
+        It is, therefore, important to protect the surrounding areas from exposure to spills, fires, explosions,
+        heat, smoke, odours, hazardous releases and noise, in particular where the facility is proposed to be 
+        located in close proximity to the private residential and commercial areas (i.e. public and 3rd parties)
+
+    -  In relation to the Facility Layout and Segregation: a major accident has the potential to escalate due to
+        inadequate means of physical isolation between adjacent process units within the same assessed
+        facility, and cause further escalation due to insufficient measures for control of major accidents, 
+        as well as, for emergency response, evacuation, and rescue
+
+    -  In relation to the Equipment Spacing: the implications are similar to the implications under layout and
+        segregation in that the principal consideration is prevention of escalation of a major accident from one 
+        item of equipment to another, within the same process unit, due to the insufficient physical isolation
+        between the items of equipment.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Before making arrangements for field spacing during Concept Selection stage of the project, the end user shall ensure that the following items have been achieved:
+
+    -  Safety engineering considerations, discussed in Guidelines Section 4 have been reviewed
+        and provided for
+    -  Preliminary considerations for concept selection field spacing have been reviewed and 
+        addressed. This includes:
+            -  Establishing the scope of the concept field spacing
+            -  Assembling a delivery team
+            -  Conducting survey and data collection.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Before commencing field spacing for all project stages (and in particular PGS 2.1, 3.1 and 4.1), the end user should consider the general Safety Engineering Consideration as given in the Guidelines, Part B.
+
+Additional references to the pertinent sections in the Guidelines which should be reviewed by the end user for field spacing during Concept Selection (PGS 2.1) are as follows:
+
+    1.  The principal implications associated with the Concept Field Spacing (Guidelines Section 5)
+    2.  Preliminary considerations (Guidelines Section 5.1)
+    3.  What are the benefits of having a Delivery team (Guidelines Section 5.1.2)
+    4.  What data is required for making facility spacing arrangements (Guidelines Section 5.1.3)
+    5.  Benefits of good layout in terms of project and operational costs (Guidelines Section 5.2.2)
+    6.  Concept Siting Considerations (Guidelines Section 5.2)
+    7.  What types of existing and potential neighboring populations should be considered
+         (Guidelines Section 5.2)
+    8.  What types of sites are considered preferred sites (Guidelines Section 5.2)
+    9.  What are the critical features of facility spacing arrangement (Guidelines Section 5.2)
+    10.  Site prevailing wind conditions	(Guidelines Section 5.2)
+    11.  Concept Layout and Segregation Considerations (Guidelines Section 5.3)
+    12.  General Considerations (Guidelines Section 5.3.1)
+    13.  Hazard Considerations	(Guidelines Section 5.3.2)
+    14.  Segregation and Separation Principles during Concept (Guidelines Section 5.3.3)
+    15.  Application of Inherently Safer Design on layout &amp; segregation such that risk level reduces towards 
+           areas occupied by personnel (Guidelines Section 5.3.3)
+    16.  Concept considerations in relation to process areas and site features (Guidelines Section 5.3.4-14)
+    17.  Concept consideration for equipment spacing (Guidelines Section 5.3)
+    18.  Determination of distances for Concept Field Spacing (Guidelines Section 5.4)</value>
+  </data>
+</root>
