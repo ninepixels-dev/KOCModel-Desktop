@@ -268,7 +268,7 @@
             this.EmptyGasLines.Controls.Add(this.label51);
             this.EmptyGasLines.Controls.Add(this.label52);
             this.EmptyGasLines.Location = new System.Drawing.Point(0, 54);
-            this.EmptyGasLines.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EmptyGasLines.Margin = new System.Windows.Forms.Padding(2);
             this.EmptyGasLines.Name = "EmptyGasLines";
             this.EmptyGasLines.Size = new System.Drawing.Size(1085, 59);
             this.EmptyGasLines.TabIndex = 53;

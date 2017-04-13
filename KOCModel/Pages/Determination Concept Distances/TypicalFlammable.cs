@@ -47,5 +47,13 @@ namespace KOCModel {
 
             } finally { }
         }
+
+        private void showMoreInfo(object sender, EventArgs e) {
+            moreInfoPanel.Show();
+        }
+
+        private void hideMoreInfo(object sender, EventArgs e) {
+            moreInfoPanel.Hide();
+        }
     }
 }

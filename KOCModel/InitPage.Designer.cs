@@ -53,12 +53,6 @@
             this.btnFEEDGeneralConsiderations = new System.Windows.Forms.Button();
             this.feed_label = new System.Windows.Forms.Label();
             this.subtreePanel1 = new System.Windows.Forms.Panel();
-            this.btnBlowouts100 = new System.Windows.Forms.Button();
-            this.btnBlowouts50 = new System.Windows.Forms.Button();
-            this.btnBlowouts30 = new System.Windows.Forms.Button();
-            this.btnBlowouts20 = new System.Windows.Forms.Button();
-            this.btnBlowouts10 = new System.Windows.Forms.Button();
-            this.btnBlowouts5 = new System.Windows.Forms.Button();
             this.btnH2S = new System.Windows.Forms.Button();
             this.btnTanksDistances = new System.Windows.Forms.Button();
             this.btnFlammableManned = new System.Windows.Forms.Button();
@@ -83,6 +77,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.subtreePanel5 = new System.Windows.Forms.Panel();
+            this.btnBlowouts100 = new System.Windows.Forms.Button();
+            this.btnBlowouts50 = new System.Windows.Forms.Button();
+            this.btnBlowouts30 = new System.Windows.Forms.Button();
+            this.btnBlowouts20 = new System.Windows.Forms.Button();
+            this.btnBlowouts10 = new System.Windows.Forms.Button();
+            this.btnBlowouts5 = new System.Windows.Forms.Button();
+            this.btnWellBlowouts = new System.Windows.Forms.Button();
             this.sidebarPanel.SuspendLayout();
             this.subtreePanel2.SuspendLayout();
             this.subtreePanel4.SuspendLayout();
@@ -90,6 +92,7 @@
             this.subtreePanel1.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.ExcelNotSupportedPanel.SuspendLayout();
+            this.subtreePanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebarPanel
@@ -120,9 +123,8 @@
             this.sidebarPanel.Controls.Add(this.general_label);
             this.sidebarPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebarPanel.Location = new System.Drawing.Point(0, 0);
-            this.sidebarPanel.Margin = new System.Windows.Forms.Padding(6);
             this.sidebarPanel.Name = "sidebarPanel";
-            this.sidebarPanel.Size = new System.Drawing.Size(644, 1483);
+            this.sidebarPanel.Size = new System.Drawing.Size(322, 610);
             this.sidebarPanel.TabIndex = 0;
             // 
             // btnDetailedDesignBRAConsideration
@@ -138,11 +140,10 @@
             this.btnDetailedDesignBRAConsideration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetailedDesignBRAConsideration.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnDetailedDesignBRAConsideration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnDetailedDesignBRAConsideration.Location = new System.Drawing.Point(0, 3350);
-            this.btnDetailedDesignBRAConsideration.Margin = new System.Windows.Forms.Padding(6);
+            this.btnDetailedDesignBRAConsideration.Location = new System.Drawing.Point(0, 1795);
             this.btnDetailedDesignBRAConsideration.Name = "btnDetailedDesignBRAConsideration";
-            this.btnDetailedDesignBRAConsideration.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnDetailedDesignBRAConsideration.Size = new System.Drawing.Size(610, 79);
+            this.btnDetailedDesignBRAConsideration.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnDetailedDesignBRAConsideration.Size = new System.Drawing.Size(305, 41);
             this.btnDetailedDesignBRAConsideration.TabIndex = 19;
             this.btnDetailedDesignBRAConsideration.Text = "Detailed Design BRA Consideration";
             this.btnDetailedDesignBRAConsideration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -162,11 +163,10 @@
             this.btnDetailedDesignFieldSpacingConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetailedDesignFieldSpacingConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnDetailedDesignFieldSpacingConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnDetailedDesignFieldSpacingConsiderations.Location = new System.Drawing.Point(0, 3271);
-            this.btnDetailedDesignFieldSpacingConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnDetailedDesignFieldSpacingConsiderations.Location = new System.Drawing.Point(0, 1754);
             this.btnDetailedDesignFieldSpacingConsiderations.Name = "btnDetailedDesignFieldSpacingConsiderations";
-            this.btnDetailedDesignFieldSpacingConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnDetailedDesignFieldSpacingConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnDetailedDesignFieldSpacingConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnDetailedDesignFieldSpacingConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnDetailedDesignFieldSpacingConsiderations.TabIndex = 18;
             this.btnDetailedDesignFieldSpacingConsiderations.Text = "Detailed Design Field Spacing Considerations";
             this.btnDetailedDesignFieldSpacingConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -179,11 +179,10 @@
             this.detailed_design.Dock = System.Windows.Forms.DockStyle.Top;
             this.detailed_design.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.detailed_design.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(100)))), ((int)(((byte)(111)))));
-            this.detailed_design.Location = new System.Drawing.Point(0, 3184);
-            this.detailed_design.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.detailed_design.Location = new System.Drawing.Point(0, 1709);
             this.detailed_design.Name = "detailed_design";
-            this.detailed_design.Padding = new System.Windows.Forms.Padding(20, 25, 20, 25);
-            this.detailed_design.Size = new System.Drawing.Size(610, 87);
+            this.detailed_design.Padding = new System.Windows.Forms.Padding(10, 13, 10, 13);
+            this.detailed_design.Size = new System.Drawing.Size(305, 45);
             this.detailed_design.TabIndex = 17;
             this.detailed_design.Text = "Detailed Design (PGS 4.1) Field Spacing";
             // 
@@ -197,10 +196,9 @@
             this.subtreePanel2.Controls.Add(this.btnRiskPublic);
             this.subtreePanel2.Controls.Add(this.btnExceedanceModel);
             this.subtreePanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subtreePanel2.Location = new System.Drawing.Point(0, 2473);
-            this.subtreePanel2.Margin = new System.Windows.Forms.Padding(6);
+            this.subtreePanel2.Location = new System.Drawing.Point(0, 1340);
             this.subtreePanel2.Name = "subtreePanel2";
-            this.subtreePanel2.Size = new System.Drawing.Size(610, 711);
+            this.subtreePanel2.Size = new System.Drawing.Size(305, 369);
             this.subtreePanel2.TabIndex = 17;
             this.subtreePanel2.Visible = false;
             // 
@@ -211,11 +209,10 @@
             this.subtreePanel4.Controls.Add(this.btnPlantLiquidProduct);
             this.subtreePanel4.Controls.Add(this.btnPlantWellFlowlines);
             this.subtreePanel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subtreePanel4.Location = new System.Drawing.Point(0, 474);
-            this.subtreePanel4.Margin = new System.Windows.Forms.Padding(6);
-            this.subtreePanel4.MinimumSize = new System.Drawing.Size(0, 96);
+            this.subtreePanel4.Location = new System.Drawing.Point(0, 246);
+            this.subtreePanel4.MinimumSize = new System.Drawing.Size(0, 50);
             this.subtreePanel4.Name = "subtreePanel4";
-            this.subtreePanel4.Size = new System.Drawing.Size(610, 237);
+            this.subtreePanel4.Size = new System.Drawing.Size(305, 123);
             this.subtreePanel4.TabIndex = 24;
             this.subtreePanel4.Visible = false;
             // 
@@ -232,11 +229,10 @@
             this.btnPlantGasLines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlantGasLines.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPlantGasLines.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnPlantGasLines.Location = new System.Drawing.Point(0, 158);
-            this.btnPlantGasLines.Margin = new System.Windows.Forms.Padding(6);
+            this.btnPlantGasLines.Location = new System.Drawing.Point(0, 82);
             this.btnPlantGasLines.Name = "btnPlantGasLines";
-            this.btnPlantGasLines.Padding = new System.Windows.Forms.Padding(90, 0, 30, 0);
-            this.btnPlantGasLines.Size = new System.Drawing.Size(610, 79);
+            this.btnPlantGasLines.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnPlantGasLines.Size = new System.Drawing.Size(305, 41);
             this.btnPlantGasLines.TabIndex = 24;
             this.btnPlantGasLines.Text = "Run Gas Lines Model";
             this.btnPlantGasLines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -256,11 +252,10 @@
             this.btnPlantLiquidProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlantLiquidProduct.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPlantLiquidProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnPlantLiquidProduct.Location = new System.Drawing.Point(0, 79);
-            this.btnPlantLiquidProduct.Margin = new System.Windows.Forms.Padding(6);
+            this.btnPlantLiquidProduct.Location = new System.Drawing.Point(0, 41);
             this.btnPlantLiquidProduct.Name = "btnPlantLiquidProduct";
-            this.btnPlantLiquidProduct.Padding = new System.Windows.Forms.Padding(90, 0, 30, 0);
-            this.btnPlantLiquidProduct.Size = new System.Drawing.Size(610, 79);
+            this.btnPlantLiquidProduct.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnPlantLiquidProduct.Size = new System.Drawing.Size(305, 41);
             this.btnPlantLiquidProduct.TabIndex = 23;
             this.btnPlantLiquidProduct.Text = "Run Liquid Product Lines Model";
             this.btnPlantLiquidProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -281,10 +276,9 @@
             this.btnPlantWellFlowlines.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPlantWellFlowlines.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.btnPlantWellFlowlines.Location = new System.Drawing.Point(0, 0);
-            this.btnPlantWellFlowlines.Margin = new System.Windows.Forms.Padding(6);
             this.btnPlantWellFlowlines.Name = "btnPlantWellFlowlines";
-            this.btnPlantWellFlowlines.Padding = new System.Windows.Forms.Padding(90, 0, 30, 0);
-            this.btnPlantWellFlowlines.Size = new System.Drawing.Size(610, 79);
+            this.btnPlantWellFlowlines.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnPlantWellFlowlines.Size = new System.Drawing.Size(305, 41);
             this.btnPlantWellFlowlines.TabIndex = 22;
             this.btnPlantWellFlowlines.Text = "Run Well Flowlines Model";
             this.btnPlantWellFlowlines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -304,11 +298,10 @@
             this.btnPlantPersonnel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlantPersonnel.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPlantPersonnel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnPlantPersonnel.Location = new System.Drawing.Point(0, 395);
-            this.btnPlantPersonnel.Margin = new System.Windows.Forms.Padding(6);
+            this.btnPlantPersonnel.Location = new System.Drawing.Point(0, 205);
             this.btnPlantPersonnel.Name = "btnPlantPersonnel";
-            this.btnPlantPersonnel.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnPlantPersonnel.Size = new System.Drawing.Size(610, 79);
+            this.btnPlantPersonnel.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnPlantPersonnel.Size = new System.Drawing.Size(305, 41);
             this.btnPlantPersonnel.TabIndex = 21;
             this.btnPlantPersonnel.Text = "Risk to Plant Personnel";
             this.btnPlantPersonnel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -322,11 +315,10 @@
             this.subtreePanel3.Controls.Add(this.btnPublicLiquidProduct);
             this.subtreePanel3.Controls.Add(this.btnPublicWellFlowlines);
             this.subtreePanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subtreePanel3.Location = new System.Drawing.Point(0, 158);
-            this.subtreePanel3.Margin = new System.Windows.Forms.Padding(6);
-            this.subtreePanel3.MinimumSize = new System.Drawing.Size(0, 96);
+            this.subtreePanel3.Location = new System.Drawing.Point(0, 82);
+            this.subtreePanel3.MinimumSize = new System.Drawing.Size(0, 50);
             this.subtreePanel3.Name = "subtreePanel3";
-            this.subtreePanel3.Size = new System.Drawing.Size(610, 237);
+            this.subtreePanel3.Size = new System.Drawing.Size(305, 123);
             this.subtreePanel3.TabIndex = 23;
             this.subtreePanel3.Visible = false;
             // 
@@ -343,11 +335,10 @@
             this.btnPublicGasLines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPublicGasLines.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPublicGasLines.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnPublicGasLines.Location = new System.Drawing.Point(0, 158);
-            this.btnPublicGasLines.Margin = new System.Windows.Forms.Padding(6);
+            this.btnPublicGasLines.Location = new System.Drawing.Point(0, 82);
             this.btnPublicGasLines.Name = "btnPublicGasLines";
-            this.btnPublicGasLines.Padding = new System.Windows.Forms.Padding(90, 0, 30, 0);
-            this.btnPublicGasLines.Size = new System.Drawing.Size(610, 79);
+            this.btnPublicGasLines.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnPublicGasLines.Size = new System.Drawing.Size(305, 41);
             this.btnPublicGasLines.TabIndex = 25;
             this.btnPublicGasLines.Text = "Run Gas Lines Model";
             this.btnPublicGasLines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -367,11 +358,10 @@
             this.btnPublicLiquidProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPublicLiquidProduct.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPublicLiquidProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnPublicLiquidProduct.Location = new System.Drawing.Point(0, 79);
-            this.btnPublicLiquidProduct.Margin = new System.Windows.Forms.Padding(6);
+            this.btnPublicLiquidProduct.Location = new System.Drawing.Point(0, 41);
             this.btnPublicLiquidProduct.Name = "btnPublicLiquidProduct";
-            this.btnPublicLiquidProduct.Padding = new System.Windows.Forms.Padding(90, 0, 30, 0);
-            this.btnPublicLiquidProduct.Size = new System.Drawing.Size(610, 79);
+            this.btnPublicLiquidProduct.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnPublicLiquidProduct.Size = new System.Drawing.Size(305, 41);
             this.btnPublicLiquidProduct.TabIndex = 24;
             this.btnPublicLiquidProduct.Text = "Run Liquid Product Lines Model";
             this.btnPublicLiquidProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -392,10 +382,9 @@
             this.btnPublicWellFlowlines.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPublicWellFlowlines.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.btnPublicWellFlowlines.Location = new System.Drawing.Point(0, 0);
-            this.btnPublicWellFlowlines.Margin = new System.Windows.Forms.Padding(6);
             this.btnPublicWellFlowlines.Name = "btnPublicWellFlowlines";
-            this.btnPublicWellFlowlines.Padding = new System.Windows.Forms.Padding(90, 0, 30, 0);
-            this.btnPublicWellFlowlines.Size = new System.Drawing.Size(610, 79);
+            this.btnPublicWellFlowlines.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnPublicWellFlowlines.Size = new System.Drawing.Size(305, 41);
             this.btnPublicWellFlowlines.TabIndex = 23;
             this.btnPublicWellFlowlines.Text = "Run Well Flowlines Model";
             this.btnPublicWellFlowlines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -415,11 +404,10 @@
             this.btnRiskPublic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRiskPublic.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnRiskPublic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnRiskPublic.Location = new System.Drawing.Point(0, 79);
-            this.btnRiskPublic.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRiskPublic.Location = new System.Drawing.Point(0, 41);
             this.btnRiskPublic.Name = "btnRiskPublic";
-            this.btnRiskPublic.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnRiskPublic.Size = new System.Drawing.Size(610, 79);
+            this.btnRiskPublic.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnRiskPublic.Size = new System.Drawing.Size(305, 41);
             this.btnRiskPublic.TabIndex = 22;
             this.btnRiskPublic.Text = "Risk to Public";
             this.btnRiskPublic.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -440,10 +428,9 @@
             this.btnExceedanceModel.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnExceedanceModel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.btnExceedanceModel.Location = new System.Drawing.Point(0, 0);
-            this.btnExceedanceModel.Margin = new System.Windows.Forms.Padding(6);
             this.btnExceedanceModel.Name = "btnExceedanceModel";
-            this.btnExceedanceModel.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnExceedanceModel.Size = new System.Drawing.Size(610, 79);
+            this.btnExceedanceModel.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnExceedanceModel.Size = new System.Drawing.Size(305, 41);
             this.btnExceedanceModel.TabIndex = 20;
             this.btnExceedanceModel.Text = "Run Explosion Exceedance Model";
             this.btnExceedanceModel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -463,11 +450,10 @@
             this.btnDeterminationFEEDDistances.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeterminationFEEDDistances.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnDeterminationFEEDDistances.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnDeterminationFEEDDistances.Location = new System.Drawing.Point(0, 2394);
-            this.btnDeterminationFEEDDistances.Margin = new System.Windows.Forms.Padding(6);
+            this.btnDeterminationFEEDDistances.Location = new System.Drawing.Point(0, 1299);
             this.btnDeterminationFEEDDistances.Name = "btnDeterminationFEEDDistances";
-            this.btnDeterminationFEEDDistances.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnDeterminationFEEDDistances.Size = new System.Drawing.Size(610, 79);
+            this.btnDeterminationFEEDDistances.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnDeterminationFEEDDistances.Size = new System.Drawing.Size(305, 41);
             this.btnDeterminationFEEDDistances.TabIndex = 16;
             this.btnDeterminationFEEDDistances.Text = "Determination of FEED Distances";
             this.btnDeterminationFEEDDistances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -487,11 +473,10 @@
             this.btnFEEDBRAConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFEEDBRAConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFEEDBRAConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFEEDBRAConsiderations.Location = new System.Drawing.Point(0, 2315);
-            this.btnFEEDBRAConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFEEDBRAConsiderations.Location = new System.Drawing.Point(0, 1258);
             this.btnFEEDBRAConsiderations.Name = "btnFEEDBRAConsiderations";
-            this.btnFEEDBRAConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnFEEDBRAConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnFEEDBRAConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnFEEDBRAConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnFEEDBRAConsiderations.TabIndex = 15;
             this.btnFEEDBRAConsiderations.Text = "FEED BRA Considerations";
             this.btnFEEDBRAConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -511,11 +496,10 @@
             this.btnFEEDEquipmentSpacingConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFEEDEquipmentSpacingConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFEEDEquipmentSpacingConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFEEDEquipmentSpacingConsiderations.Location = new System.Drawing.Point(0, 2236);
-            this.btnFEEDEquipmentSpacingConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFEEDEquipmentSpacingConsiderations.Location = new System.Drawing.Point(0, 1217);
             this.btnFEEDEquipmentSpacingConsiderations.Name = "btnFEEDEquipmentSpacingConsiderations";
-            this.btnFEEDEquipmentSpacingConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnFEEDEquipmentSpacingConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnFEEDEquipmentSpacingConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnFEEDEquipmentSpacingConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnFEEDEquipmentSpacingConsiderations.TabIndex = 14;
             this.btnFEEDEquipmentSpacingConsiderations.Text = "FEED Equipment Spacing Considerations";
             this.btnFEEDEquipmentSpacingConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -535,11 +519,10 @@
             this.btnFEEDLayoutSegregationConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFEEDLayoutSegregationConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFEEDLayoutSegregationConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFEEDLayoutSegregationConsiderations.Location = new System.Drawing.Point(0, 2157);
-            this.btnFEEDLayoutSegregationConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFEEDLayoutSegregationConsiderations.Location = new System.Drawing.Point(0, 1176);
             this.btnFEEDLayoutSegregationConsiderations.Name = "btnFEEDLayoutSegregationConsiderations";
-            this.btnFEEDLayoutSegregationConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnFEEDLayoutSegregationConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnFEEDLayoutSegregationConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnFEEDLayoutSegregationConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnFEEDLayoutSegregationConsiderations.TabIndex = 13;
             this.btnFEEDLayoutSegregationConsiderations.Text = "FEED Layout & Segregation Considerations";
             this.btnFEEDLayoutSegregationConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -559,11 +542,10 @@
             this.btnFEEDSitingConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFEEDSitingConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFEEDSitingConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFEEDSitingConsiderations.Location = new System.Drawing.Point(0, 2078);
-            this.btnFEEDSitingConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFEEDSitingConsiderations.Location = new System.Drawing.Point(0, 1135);
             this.btnFEEDSitingConsiderations.Name = "btnFEEDSitingConsiderations";
-            this.btnFEEDSitingConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnFEEDSitingConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnFEEDSitingConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnFEEDSitingConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnFEEDSitingConsiderations.TabIndex = 12;
             this.btnFEEDSitingConsiderations.Text = "FEED Siting Considerations";
             this.btnFEEDSitingConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -583,11 +565,10 @@
             this.btnFEEDGeneralConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFEEDGeneralConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFEEDGeneralConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFEEDGeneralConsiderations.Location = new System.Drawing.Point(0, 1999);
-            this.btnFEEDGeneralConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFEEDGeneralConsiderations.Location = new System.Drawing.Point(0, 1094);
             this.btnFEEDGeneralConsiderations.Name = "btnFEEDGeneralConsiderations";
-            this.btnFEEDGeneralConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnFEEDGeneralConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnFEEDGeneralConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnFEEDGeneralConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnFEEDGeneralConsiderations.TabIndex = 11;
             this.btnFEEDGeneralConsiderations.Text = "FEED General Considerations";
             this.btnFEEDGeneralConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -600,11 +581,10 @@
             this.feed_label.Dock = System.Windows.Forms.DockStyle.Top;
             this.feed_label.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.feed_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(100)))), ((int)(((byte)(111)))));
-            this.feed_label.Location = new System.Drawing.Point(0, 1912);
-            this.feed_label.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.feed_label.Location = new System.Drawing.Point(0, 1049);
             this.feed_label.Name = "feed_label";
-            this.feed_label.Padding = new System.Windows.Forms.Padding(20, 25, 20, 25);
-            this.feed_label.Size = new System.Drawing.Size(610, 87);
+            this.feed_label.Padding = new System.Windows.Forms.Padding(10, 13, 10, 13);
+            this.feed_label.Size = new System.Drawing.Size(305, 45);
             this.feed_label.TabIndex = 10;
             this.feed_label.Text = "FEED (PGS 3.1) Field Spacing";
             // 
@@ -612,12 +592,8 @@
             // 
             this.subtreePanel1.AutoSize = true;
             this.subtreePanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(59)))), ((int)(((byte)(65)))));
-            this.subtreePanel1.Controls.Add(this.btnBlowouts100);
-            this.subtreePanel1.Controls.Add(this.btnBlowouts50);
-            this.subtreePanel1.Controls.Add(this.btnBlowouts30);
-            this.subtreePanel1.Controls.Add(this.btnBlowouts20);
-            this.subtreePanel1.Controls.Add(this.btnBlowouts10);
-            this.subtreePanel1.Controls.Add(this.btnBlowouts5);
+            this.subtreePanel1.Controls.Add(this.subtreePanel5);
+            this.subtreePanel1.Controls.Add(this.btnWellBlowouts);
             this.subtreePanel1.Controls.Add(this.btnH2S);
             this.subtreePanel1.Controls.Add(this.btnTanksDistances);
             this.subtreePanel1.Controls.Add(this.btnFlammableManned);
@@ -627,156 +603,11 @@
             this.subtreePanel1.Controls.Add(this.btnFlammableWellsDistances);
             this.subtreePanel1.Controls.Add(this.btnInitialSeparation);
             this.subtreePanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subtreePanel1.Location = new System.Drawing.Point(0, 806);
-            this.subtreePanel1.Margin = new System.Windows.Forms.Padding(6);
+            this.subtreePanel1.Location = new System.Drawing.Point(0, 418);
             this.subtreePanel1.Name = "subtreePanel1";
-            this.subtreePanel1.Size = new System.Drawing.Size(610, 1106);
+            this.subtreePanel1.Size = new System.Drawing.Size(305, 631);
             this.subtreePanel1.TabIndex = 23;
             this.subtreePanel1.Visible = false;
-            // 
-            // btnBlowouts100
-            // 
-            this.btnBlowouts100.AccessibleName = "Blowouts100";
-            this.btnBlowouts100.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts100.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts100.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts100.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts100.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts100.Location = new System.Drawing.Point(0, 1027);
-            this.btnBlowouts100.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBlowouts100.Name = "btnBlowouts100";
-            this.btnBlowouts100.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnBlowouts100.Size = new System.Drawing.Size(610, 79);
-            this.btnBlowouts100.TabIndex = 34;
-            this.btnBlowouts100.Text = "Sour Well Blowouts (100 kg/s)";
-            this.btnBlowouts100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts100.UseVisualStyleBackColor = false;
-            this.btnBlowouts100.Click += new System.EventHandler(this.togglePanel);
-            // 
-            // btnBlowouts50
-            // 
-            this.btnBlowouts50.AccessibleName = "Blowouts50";
-            this.btnBlowouts50.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts50.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts50.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts50.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts50.Location = new System.Drawing.Point(0, 948);
-            this.btnBlowouts50.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBlowouts50.Name = "btnBlowouts50";
-            this.btnBlowouts50.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnBlowouts50.Size = new System.Drawing.Size(610, 79);
-            this.btnBlowouts50.TabIndex = 33;
-            this.btnBlowouts50.Text = "Sour Well Blowouts (50 kg/s)";
-            this.btnBlowouts50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts50.UseVisualStyleBackColor = false;
-            this.btnBlowouts50.Click += new System.EventHandler(this.togglePanel);
-            // 
-            // btnBlowouts30
-            // 
-            this.btnBlowouts30.AccessibleName = "Blowouts30";
-            this.btnBlowouts30.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts30.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts30.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts30.Location = new System.Drawing.Point(0, 869);
-            this.btnBlowouts30.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBlowouts30.Name = "btnBlowouts30";
-            this.btnBlowouts30.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnBlowouts30.Size = new System.Drawing.Size(610, 79);
-            this.btnBlowouts30.TabIndex = 32;
-            this.btnBlowouts30.Text = "Sour Well Blowouts (30 kg/s)";
-            this.btnBlowouts30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts30.UseVisualStyleBackColor = false;
-            this.btnBlowouts30.Click += new System.EventHandler(this.togglePanel);
-            // 
-            // btnBlowouts20
-            // 
-            this.btnBlowouts20.AccessibleName = "Blowouts20";
-            this.btnBlowouts20.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts20.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts20.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts20.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts20.Location = new System.Drawing.Point(0, 790);
-            this.btnBlowouts20.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBlowouts20.Name = "btnBlowouts20";
-            this.btnBlowouts20.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnBlowouts20.Size = new System.Drawing.Size(610, 79);
-            this.btnBlowouts20.TabIndex = 31;
-            this.btnBlowouts20.Text = "Sour Well Blowouts (20 kg/s)";
-            this.btnBlowouts20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts20.UseVisualStyleBackColor = false;
-            this.btnBlowouts20.Click += new System.EventHandler(this.togglePanel);
-            // 
-            // btnBlowouts10
-            // 
-            this.btnBlowouts10.AccessibleName = "Blowouts10";
-            this.btnBlowouts10.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts10.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts10.Location = new System.Drawing.Point(0, 711);
-            this.btnBlowouts10.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBlowouts10.Name = "btnBlowouts10";
-            this.btnBlowouts10.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnBlowouts10.Size = new System.Drawing.Size(610, 79);
-            this.btnBlowouts10.TabIndex = 30;
-            this.btnBlowouts10.Text = "Sour Well Blowouts (10 kg/s)";
-            this.btnBlowouts10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts10.UseVisualStyleBackColor = false;
-            this.btnBlowouts10.Click += new System.EventHandler(this.togglePanel);
-            // 
-            // btnBlowouts5
-            // 
-            this.btnBlowouts5.AccessibleName = "Blowouts5";
-            this.btnBlowouts5.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts5.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts5.Location = new System.Drawing.Point(0, 632);
-            this.btnBlowouts5.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBlowouts5.Name = "btnBlowouts5";
-            this.btnBlowouts5.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnBlowouts5.Size = new System.Drawing.Size(610, 79);
-            this.btnBlowouts5.TabIndex = 29;
-            this.btnBlowouts5.Text = "Sour Well Blowouts (5 kg/s)";
-            this.btnBlowouts5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts5.UseVisualStyleBackColor = false;
-            this.btnBlowouts5.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnH2S
             // 
@@ -791,11 +622,10 @@
             this.btnH2S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnH2S.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnH2S.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnH2S.Location = new System.Drawing.Point(0, 553);
-            this.btnH2S.Margin = new System.Windows.Forms.Padding(6);
+            this.btnH2S.Location = new System.Drawing.Point(0, 287);
             this.btnH2S.Name = "btnH2S";
-            this.btnH2S.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnH2S.Size = new System.Drawing.Size(610, 79);
+            this.btnH2S.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnH2S.Size = new System.Drawing.Size(305, 41);
             this.btnH2S.TabIndex = 28;
             this.btnH2S.Text = "H2S Facilities";
             this.btnH2S.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -815,11 +645,10 @@
             this.btnTanksDistances.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTanksDistances.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnTanksDistances.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnTanksDistances.Location = new System.Drawing.Point(0, 474);
-            this.btnTanksDistances.Margin = new System.Windows.Forms.Padding(6);
+            this.btnTanksDistances.Location = new System.Drawing.Point(0, 246);
             this.btnTanksDistances.Name = "btnTanksDistances";
-            this.btnTanksDistances.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnTanksDistances.Size = new System.Drawing.Size(610, 79);
+            this.btnTanksDistances.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnTanksDistances.Size = new System.Drawing.Size(305, 41);
             this.btnTanksDistances.TabIndex = 27;
             this.btnTanksDistances.Text = "Tanks Distances";
             this.btnTanksDistances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -839,11 +668,10 @@
             this.btnFlammableManned.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFlammableManned.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFlammableManned.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFlammableManned.Location = new System.Drawing.Point(0, 395);
-            this.btnFlammableManned.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFlammableManned.Location = new System.Drawing.Point(0, 205);
             this.btnFlammableManned.Name = "btnFlammableManned";
-            this.btnFlammableManned.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnFlammableManned.Size = new System.Drawing.Size(610, 79);
+            this.btnFlammableManned.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnFlammableManned.Size = new System.Drawing.Size(305, 41);
             this.btnFlammableManned.TabIndex = 26;
             this.btnFlammableManned.Text = "Flammable Manned Facility Distances";
             this.btnFlammableManned.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -863,11 +691,10 @@
             this.btnFlammableUnmanned.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFlammableUnmanned.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFlammableUnmanned.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFlammableUnmanned.Location = new System.Drawing.Point(0, 316);
-            this.btnFlammableUnmanned.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFlammableUnmanned.Location = new System.Drawing.Point(0, 164);
             this.btnFlammableUnmanned.Name = "btnFlammableUnmanned";
-            this.btnFlammableUnmanned.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnFlammableUnmanned.Size = new System.Drawing.Size(610, 79);
+            this.btnFlammableUnmanned.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnFlammableUnmanned.Size = new System.Drawing.Size(305, 41);
             this.btnFlammableUnmanned.TabIndex = 25;
             this.btnFlammableUnmanned.Text = "Flammable Unmanned Facility Distances";
             this.btnFlammableUnmanned.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -887,11 +714,10 @@
             this.btnTypicalFlammable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTypicalFlammable.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnTypicalFlammable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnTypicalFlammable.Location = new System.Drawing.Point(0, 237);
-            this.btnTypicalFlammable.Margin = new System.Windows.Forms.Padding(6);
+            this.btnTypicalFlammable.Location = new System.Drawing.Point(0, 123);
             this.btnTypicalFlammable.Name = "btnTypicalFlammable";
-            this.btnTypicalFlammable.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnTypicalFlammable.Size = new System.Drawing.Size(610, 79);
+            this.btnTypicalFlammable.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnTypicalFlammable.Size = new System.Drawing.Size(305, 41);
             this.btnTypicalFlammable.TabIndex = 24;
             this.btnTypicalFlammable.Text = "Typical Flammable Processing Facility Distances";
             this.btnTypicalFlammable.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -911,11 +737,10 @@
             this.btnFlammableFlowlines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFlammableFlowlines.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFlammableFlowlines.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFlammableFlowlines.Location = new System.Drawing.Point(0, 158);
-            this.btnFlammableFlowlines.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFlammableFlowlines.Location = new System.Drawing.Point(0, 82);
             this.btnFlammableFlowlines.Name = "btnFlammableFlowlines";
-            this.btnFlammableFlowlines.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnFlammableFlowlines.Size = new System.Drawing.Size(610, 79);
+            this.btnFlammableFlowlines.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnFlammableFlowlines.Size = new System.Drawing.Size(305, 41);
             this.btnFlammableFlowlines.TabIndex = 23;
             this.btnFlammableFlowlines.Text = "Flammable Flowlines, Gathering & Pipeline System Distances";
             this.btnFlammableFlowlines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -935,11 +760,10 @@
             this.btnFlammableWellsDistances.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFlammableWellsDistances.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFlammableWellsDistances.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnFlammableWellsDistances.Location = new System.Drawing.Point(0, 79);
-            this.btnFlammableWellsDistances.Margin = new System.Windows.Forms.Padding(6);
+            this.btnFlammableWellsDistances.Location = new System.Drawing.Point(0, 41);
             this.btnFlammableWellsDistances.Name = "btnFlammableWellsDistances";
-            this.btnFlammableWellsDistances.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnFlammableWellsDistances.Size = new System.Drawing.Size(610, 79);
+            this.btnFlammableWellsDistances.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnFlammableWellsDistances.Size = new System.Drawing.Size(305, 41);
             this.btnFlammableWellsDistances.TabIndex = 22;
             this.btnFlammableWellsDistances.Text = "Flammable Wells Distances";
             this.btnFlammableWellsDistances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -960,10 +784,9 @@
             this.btnInitialSeparation.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnInitialSeparation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
             this.btnInitialSeparation.Location = new System.Drawing.Point(0, 0);
-            this.btnInitialSeparation.Margin = new System.Windows.Forms.Padding(6);
             this.btnInitialSeparation.Name = "btnInitialSeparation";
-            this.btnInitialSeparation.Padding = new System.Windows.Forms.Padding(50, 0, 30, 0);
-            this.btnInitialSeparation.Size = new System.Drawing.Size(610, 79);
+            this.btnInitialSeparation.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnInitialSeparation.Size = new System.Drawing.Size(305, 41);
             this.btnInitialSeparation.TabIndex = 21;
             this.btnInitialSeparation.Text = "Initial Separation Distances for Wells in Normal Operation (Flammables only)";
             this.btnInitialSeparation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -983,11 +806,10 @@
             this.btnDeterminationConceptDistances.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeterminationConceptDistances.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnDeterminationConceptDistances.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnDeterminationConceptDistances.Location = new System.Drawing.Point(0, 727);
-            this.btnDeterminationConceptDistances.Margin = new System.Windows.Forms.Padding(6);
+            this.btnDeterminationConceptDistances.Location = new System.Drawing.Point(0, 377);
             this.btnDeterminationConceptDistances.Name = "btnDeterminationConceptDistances";
-            this.btnDeterminationConceptDistances.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnDeterminationConceptDistances.Size = new System.Drawing.Size(610, 79);
+            this.btnDeterminationConceptDistances.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnDeterminationConceptDistances.Size = new System.Drawing.Size(305, 41);
             this.btnDeterminationConceptDistances.TabIndex = 9;
             this.btnDeterminationConceptDistances.Text = "Determination of Concept Distances";
             this.btnDeterminationConceptDistances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1007,11 +829,10 @@
             this.btnConceptBRAConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConceptBRAConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnConceptBRAConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnConceptBRAConsiderations.Location = new System.Drawing.Point(0, 648);
-            this.btnConceptBRAConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConceptBRAConsiderations.Location = new System.Drawing.Point(0, 336);
             this.btnConceptBRAConsiderations.Name = "btnConceptBRAConsiderations";
-            this.btnConceptBRAConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnConceptBRAConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnConceptBRAConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnConceptBRAConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnConceptBRAConsiderations.TabIndex = 8;
             this.btnConceptBRAConsiderations.Text = "Concept BRA Considerations";
             this.btnConceptBRAConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1031,11 +852,10 @@
             this.btnConceptEquipmentSpacingConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConceptEquipmentSpacingConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnConceptEquipmentSpacingConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnConceptEquipmentSpacingConsiderations.Location = new System.Drawing.Point(0, 569);
-            this.btnConceptEquipmentSpacingConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConceptEquipmentSpacingConsiderations.Location = new System.Drawing.Point(0, 295);
             this.btnConceptEquipmentSpacingConsiderations.Name = "btnConceptEquipmentSpacingConsiderations";
-            this.btnConceptEquipmentSpacingConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnConceptEquipmentSpacingConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnConceptEquipmentSpacingConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnConceptEquipmentSpacingConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnConceptEquipmentSpacingConsiderations.TabIndex = 7;
             this.btnConceptEquipmentSpacingConsiderations.Text = "Concept Equipment Spacing Considerations";
             this.btnConceptEquipmentSpacingConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1055,11 +875,10 @@
             this.btnConceptLayoutSegregationConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConceptLayoutSegregationConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnConceptLayoutSegregationConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnConceptLayoutSegregationConsiderations.Location = new System.Drawing.Point(0, 490);
-            this.btnConceptLayoutSegregationConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConceptLayoutSegregationConsiderations.Location = new System.Drawing.Point(0, 254);
             this.btnConceptLayoutSegregationConsiderations.Name = "btnConceptLayoutSegregationConsiderations";
-            this.btnConceptLayoutSegregationConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnConceptLayoutSegregationConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnConceptLayoutSegregationConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnConceptLayoutSegregationConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnConceptLayoutSegregationConsiderations.TabIndex = 6;
             this.btnConceptLayoutSegregationConsiderations.Text = "Concept Layout & Segregation Considerations";
             this.btnConceptLayoutSegregationConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1079,11 +898,10 @@
             this.btnConceptSitingConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConceptSitingConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnConceptSitingConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnConceptSitingConsiderations.Location = new System.Drawing.Point(0, 411);
-            this.btnConceptSitingConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConceptSitingConsiderations.Location = new System.Drawing.Point(0, 213);
             this.btnConceptSitingConsiderations.Name = "btnConceptSitingConsiderations";
-            this.btnConceptSitingConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnConceptSitingConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnConceptSitingConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnConceptSitingConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnConceptSitingConsiderations.TabIndex = 5;
             this.btnConceptSitingConsiderations.Text = "Concept Siting Considerations";
             this.btnConceptSitingConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1103,11 +921,10 @@
             this.btnConceptGeneralConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConceptGeneralConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnConceptGeneralConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnConceptGeneralConsiderations.Location = new System.Drawing.Point(0, 332);
-            this.btnConceptGeneralConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConceptGeneralConsiderations.Location = new System.Drawing.Point(0, 172);
             this.btnConceptGeneralConsiderations.Name = "btnConceptGeneralConsiderations";
-            this.btnConceptGeneralConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnConceptGeneralConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnConceptGeneralConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnConceptGeneralConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnConceptGeneralConsiderations.TabIndex = 4;
             this.btnConceptGeneralConsiderations.Text = "Concept General Considerations";
             this.btnConceptGeneralConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1120,11 +937,10 @@
             this.concept_selection_label.Dock = System.Windows.Forms.DockStyle.Top;
             this.concept_selection_label.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.concept_selection_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(100)))), ((int)(((byte)(111)))));
-            this.concept_selection_label.Location = new System.Drawing.Point(0, 245);
-            this.concept_selection_label.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.concept_selection_label.Location = new System.Drawing.Point(0, 127);
             this.concept_selection_label.Name = "concept_selection_label";
-            this.concept_selection_label.Padding = new System.Windows.Forms.Padding(20, 25, 20, 25);
-            this.concept_selection_label.Size = new System.Drawing.Size(610, 87);
+            this.concept_selection_label.Padding = new System.Windows.Forms.Padding(10, 13, 10, 13);
+            this.concept_selection_label.Size = new System.Drawing.Size(305, 45);
             this.concept_selection_label.TabIndex = 3;
             this.concept_selection_label.Text = "Concept Selection (PGS 2.1) Field Spacing";
             // 
@@ -1141,11 +957,10 @@
             this.btnGeneralConsiderations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGeneralConsiderations.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnGeneralConsiderations.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnGeneralConsiderations.Location = new System.Drawing.Point(0, 166);
-            this.btnGeneralConsiderations.Margin = new System.Windows.Forms.Padding(6);
+            this.btnGeneralConsiderations.Location = new System.Drawing.Point(0, 86);
             this.btnGeneralConsiderations.Name = "btnGeneralConsiderations";
-            this.btnGeneralConsiderations.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnGeneralConsiderations.Size = new System.Drawing.Size(610, 79);
+            this.btnGeneralConsiderations.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnGeneralConsiderations.Size = new System.Drawing.Size(305, 41);
             this.btnGeneralConsiderations.TabIndex = 2;
             this.btnGeneralConsiderations.Text = "General Considerations";
             this.btnGeneralConsiderations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1165,11 +980,10 @@
             this.btnHomepage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHomepage.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnHomepage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnHomepage.Location = new System.Drawing.Point(0, 87);
-            this.btnHomepage.Margin = new System.Windows.Forms.Padding(6);
+            this.btnHomepage.Location = new System.Drawing.Point(0, 45);
             this.btnHomepage.Name = "btnHomepage";
-            this.btnHomepage.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnHomepage.Size = new System.Drawing.Size(610, 79);
+            this.btnHomepage.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnHomepage.Size = new System.Drawing.Size(305, 41);
             this.btnHomepage.TabIndex = 1;
             this.btnHomepage.Text = "Homepage";
             this.btnHomepage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1183,10 +997,9 @@
             this.general_label.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.general_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(100)))), ((int)(((byte)(111)))));
             this.general_label.Location = new System.Drawing.Point(0, 0);
-            this.general_label.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.general_label.Name = "general_label";
-            this.general_label.Padding = new System.Windows.Forms.Padding(20, 25, 20, 25);
-            this.general_label.Size = new System.Drawing.Size(610, 87);
+            this.general_label.Padding = new System.Windows.Forms.Padding(10, 13, 10, 13);
+            this.general_label.Size = new System.Drawing.Size(305, 45);
             this.general_label.TabIndex = 0;
             this.general_label.Text = "General";
             // 
@@ -1196,10 +1009,9 @@
             this.mainPanel.AutoSize = true;
             this.mainPanel.Controls.Add(this.ExcelNotSupportedPanel);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(644, 0);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(6);
+            this.mainPanel.Location = new System.Drawing.Point(322, 0);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(2172, 1483);
+            this.mainPanel.Size = new System.Drawing.Size(636, 610);
             this.mainPanel.TabIndex = 0;
             // 
             // ExcelNotSupportedPanel
@@ -1212,9 +1024,9 @@
             this.ExcelNotSupportedPanel.Controls.Add(this.label2);
             this.ExcelNotSupportedPanel.Controls.Add(this.label1);
             this.ExcelNotSupportedPanel.Location = new System.Drawing.Point(0, 0);
-            this.ExcelNotSupportedPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.ExcelNotSupportedPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ExcelNotSupportedPanel.Name = "ExcelNotSupportedPanel";
-            this.ExcelNotSupportedPanel.Size = new System.Drawing.Size(2168, 113);
+            this.ExcelNotSupportedPanel.Size = new System.Drawing.Size(634, 59);
             this.ExcelNotSupportedPanel.TabIndex = 0;
             // 
             // label4
@@ -1224,10 +1036,10 @@
             this.label4.BackColor = System.Drawing.Color.Maroon;
             this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.ForeColor = System.Drawing.Color.Snow;
-            this.label4.Location = new System.Drawing.Point(-8, -2);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(-4, -1);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(24, 115);
+            this.label4.Size = new System.Drawing.Size(12, 60);
             this.label4.TabIndex = 3;
             // 
             // label3
@@ -1237,10 +1049,10 @@
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.Snow;
-            this.label3.Location = new System.Drawing.Point(2114, 15);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(607, 8);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 39);
+            this.label3.Size = new System.Drawing.Size(19, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "✕";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -1250,10 +1062,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.Snow;
-            this.label2.Location = new System.Drawing.Point(86, 60);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(43, 31);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(390, 37);
+            this.label2.Size = new System.Drawing.Size(199, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Some features will be disabled";
             // 
@@ -1262,23 +1074,192 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.Snow;
-            this.label1.Location = new System.Drawing.Point(80, 17);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(40, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 51);
+            this.label1.Size = new System.Drawing.Size(169, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Excel not installed";
             // 
+            // subtreePanel5
+            // 
+            this.subtreePanel5.Controls.Add(this.btnBlowouts100);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts50);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts30);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts20);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts10);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts5);
+            this.subtreePanel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.subtreePanel5.Location = new System.Drawing.Point(0, 369);
+            this.subtreePanel5.Name = "subtreePanel5";
+            this.subtreePanel5.Size = new System.Drawing.Size(305, 262);
+            this.subtreePanel5.TabIndex = 35;
+            this.subtreePanel5.Visible = false;
+            // 
+            // btnBlowouts100
+            // 
+            this.btnBlowouts100.AccessibleName = "Blowouts100";
+            this.btnBlowouts100.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts100.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts100.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts100.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts100.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts100.Location = new System.Drawing.Point(0, 205);
+            this.btnBlowouts100.Name = "btnBlowouts100";
+            this.btnBlowouts100.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts100.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts100.TabIndex = 40;
+            this.btnBlowouts100.Text = "Sour Well Blowouts (100 kg/s)";
+            this.btnBlowouts100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts100.UseVisualStyleBackColor = false;
+            // 
+            // btnBlowouts50
+            // 
+            this.btnBlowouts50.AccessibleName = "Blowouts50";
+            this.btnBlowouts50.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts50.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts50.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts50.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts50.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts50.Location = new System.Drawing.Point(0, 164);
+            this.btnBlowouts50.Name = "btnBlowouts50";
+            this.btnBlowouts50.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts50.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts50.TabIndex = 39;
+            this.btnBlowouts50.Text = "Sour Well Blowouts (50 kg/s)";
+            this.btnBlowouts50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts50.UseVisualStyleBackColor = false;
+            // 
+            // btnBlowouts30
+            // 
+            this.btnBlowouts30.AccessibleName = "Blowouts30";
+            this.btnBlowouts30.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts30.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts30.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts30.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts30.Location = new System.Drawing.Point(0, 123);
+            this.btnBlowouts30.Name = "btnBlowouts30";
+            this.btnBlowouts30.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts30.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts30.TabIndex = 38;
+            this.btnBlowouts30.Text = "Sour Well Blowouts (30 kg/s)";
+            this.btnBlowouts30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts30.UseVisualStyleBackColor = false;
+            // 
+            // btnBlowouts20
+            // 
+            this.btnBlowouts20.AccessibleName = "Blowouts20";
+            this.btnBlowouts20.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts20.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts20.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts20.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts20.Location = new System.Drawing.Point(0, 82);
+            this.btnBlowouts20.Name = "btnBlowouts20";
+            this.btnBlowouts20.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts20.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts20.TabIndex = 37;
+            this.btnBlowouts20.Text = "Sour Well Blowouts (20 kg/s)";
+            this.btnBlowouts20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts20.UseVisualStyleBackColor = false;
+            // 
+            // btnBlowouts10
+            // 
+            this.btnBlowouts10.AccessibleName = "Blowouts10";
+            this.btnBlowouts10.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts10.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts10.Location = new System.Drawing.Point(0, 41);
+            this.btnBlowouts10.Name = "btnBlowouts10";
+            this.btnBlowouts10.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts10.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts10.TabIndex = 36;
+            this.btnBlowouts10.Text = "Sour Well Blowouts (10 kg/s)";
+            this.btnBlowouts10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts10.UseVisualStyleBackColor = false;
+            // 
+            // btnBlowouts5
+            // 
+            this.btnBlowouts5.AccessibleName = "Blowouts5";
+            this.btnBlowouts5.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts5.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts5.Location = new System.Drawing.Point(0, 0);
+            this.btnBlowouts5.Name = "btnBlowouts5";
+            this.btnBlowouts5.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts5.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts5.TabIndex = 35;
+            this.btnBlowouts5.Text = "Sour Well Blowouts (5 kg/s)";
+            this.btnBlowouts5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts5.UseVisualStyleBackColor = false;
+            // 
+            // btnWellBlowouts
+            // 
+            this.btnWellBlowouts.AccessibleName = "WellBlowouts";
+            this.btnWellBlowouts.BackColor = System.Drawing.Color.Transparent;
+            this.btnWellBlowouts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnWellBlowouts.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWellBlowouts.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnWellBlowouts.FlatAppearance.BorderSize = 0;
+            this.btnWellBlowouts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnWellBlowouts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnWellBlowouts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWellBlowouts.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellBlowouts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnWellBlowouts.Location = new System.Drawing.Point(0, 328);
+            this.btnWellBlowouts.Name = "btnWellBlowouts";
+            this.btnWellBlowouts.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnWellBlowouts.Size = new System.Drawing.Size(305, 41);
+            this.btnWellBlowouts.TabIndex = 36;
+            this.btnWellBlowouts.Text = "Sour Well Blowouts";
+            this.btnWellBlowouts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnWellBlowouts.UseVisualStyleBackColor = false;
+            this.btnWellBlowouts.Click += new System.EventHandler(this.toggleSubtree5);
+            // 
             // InitPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2816, 1483);
+            this.ClientSize = new System.Drawing.Size(958, 610);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.sidebarPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6);
-            this.MinimumSize = new System.Drawing.Size(2822, 1492);
+            this.MinimumSize = new System.Drawing.Size(967, 621);
             this.Name = "InitPage";
             this.Text = "KOC Model";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -1294,6 +1275,7 @@
             this.mainPanel.ResumeLayout(false);
             this.ExcelNotSupportedPanel.ResumeLayout(false);
             this.ExcelNotSupportedPanel.PerformLayout();
+            this.subtreePanel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1328,8 +1310,6 @@
         private System.Windows.Forms.Label general_label;
         private System.Windows.Forms.Panel subtreePanel1;
         private System.Windows.Forms.Button btnHomepage;
-        private System.Windows.Forms.Button btnBlowouts10;
-        private System.Windows.Forms.Button btnBlowouts5;
         private System.Windows.Forms.Button btnH2S;
         private System.Windows.Forms.Button btnTanksDistances;
         private System.Windows.Forms.Button btnFlammableManned;
@@ -1351,10 +1331,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel subtreePanel5;
         private System.Windows.Forms.Button btnBlowouts100;
         private System.Windows.Forms.Button btnBlowouts50;
         private System.Windows.Forms.Button btnBlowouts30;
         private System.Windows.Forms.Button btnBlowouts20;
+        private System.Windows.Forms.Button btnBlowouts10;
+        private System.Windows.Forms.Button btnBlowouts5;
+        private System.Windows.Forms.Button btnWellBlowouts;
     }
 }
 

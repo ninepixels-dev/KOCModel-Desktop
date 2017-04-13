@@ -265,6 +265,10 @@ namespace KOCModel
             subtreePanel4.Visible = !subtreePanel4.Visible;
         }
 
+        private void toggleSubtree5(object sender, EventArgs e) {
+            subtreePanel5.Visible = !subtreePanel5.Visible;
+        }
+
         private void label3_Click(object sender, EventArgs e) {
             ExcelNotSupportedPanel.Hide();
         }

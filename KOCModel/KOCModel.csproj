@@ -504,6 +504,7 @@
     <Content Include="icon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\table.JPG" />
     <Content Include="Templates\Exceedance Results.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
