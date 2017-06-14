@@ -20,19 +20,19 @@ namespace KOCModel {
                 double result = 0;
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 2200 * Math.Pow(value, 0.95);
+                result = 971.95 * Math.Pow(value, 0.9017);
                 lblValue1.Text = Math.Round(result).ToString();
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 2200 * Math.Pow(value, 0.95);
+                result = 1290.5 * Math.Pow(value, 0.8671);
                 lblValue2.Text = Math.Round(result).ToString();
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 3500 * Math.Pow(value, 0.75);
+                result = 1685.6* Math.Pow(value, 0.8023);
                 lblValue3.Text = Math.Round(result).ToString();
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 6000 * Math.Pow(value, 0.62);
+                result = 2764.6 * Math.Pow(value, 0.8397);
                 lblValue4.Text = Math.Round(result).ToString();
 
                 notificationPanel.Show();

@@ -53,6 +53,14 @@
             this.btnFEEDGeneralConsiderations = new System.Windows.Forms.Button();
             this.feed_label = new System.Windows.Forms.Label();
             this.subtreePanel1 = new System.Windows.Forms.Panel();
+            this.subtreePanel5 = new System.Windows.Forms.Panel();
+            this.btnBlowouts100 = new System.Windows.Forms.Button();
+            this.btnBlowouts50 = new System.Windows.Forms.Button();
+            this.btnBlowouts30 = new System.Windows.Forms.Button();
+            this.btnBlowouts20 = new System.Windows.Forms.Button();
+            this.btnBlowouts10 = new System.Windows.Forms.Button();
+            this.btnBlowouts5 = new System.Windows.Forms.Button();
+            this.btnWellBlowouts = new System.Windows.Forms.Button();
             this.btnH2S = new System.Windows.Forms.Button();
             this.btnTanksDistances = new System.Windows.Forms.Button();
             this.btnFlammableManned = new System.Windows.Forms.Button();
@@ -77,22 +85,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.subtreePanel5 = new System.Windows.Forms.Panel();
-            this.btnBlowouts100 = new System.Windows.Forms.Button();
-            this.btnBlowouts50 = new System.Windows.Forms.Button();
-            this.btnBlowouts30 = new System.Windows.Forms.Button();
-            this.btnBlowouts20 = new System.Windows.Forms.Button();
-            this.btnBlowouts10 = new System.Windows.Forms.Button();
-            this.btnBlowouts5 = new System.Windows.Forms.Button();
-            this.btnWellBlowouts = new System.Windows.Forms.Button();
             this.sidebarPanel.SuspendLayout();
             this.subtreePanel2.SuspendLayout();
             this.subtreePanel4.SuspendLayout();
             this.subtreePanel3.SuspendLayout();
             this.subtreePanel1.SuspendLayout();
+            this.subtreePanel5.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.ExcelNotSupportedPanel.SuspendLayout();
-            this.subtreePanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebarPanel
@@ -609,6 +609,182 @@
             this.subtreePanel1.TabIndex = 23;
             this.subtreePanel1.Visible = false;
             // 
+            // subtreePanel5
+            // 
+            this.subtreePanel5.Controls.Add(this.btnBlowouts100);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts50);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts30);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts20);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts10);
+            this.subtreePanel5.Controls.Add(this.btnBlowouts5);
+            this.subtreePanel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.subtreePanel5.Location = new System.Drawing.Point(0, 369);
+            this.subtreePanel5.Name = "subtreePanel5";
+            this.subtreePanel5.Size = new System.Drawing.Size(305, 262);
+            this.subtreePanel5.TabIndex = 35;
+            this.subtreePanel5.Visible = false;
+            // 
+            // btnBlowouts100
+            // 
+            this.btnBlowouts100.AccessibleName = "Blowouts100";
+            this.btnBlowouts100.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts100.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts100.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts100.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts100.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts100.Location = new System.Drawing.Point(0, 205);
+            this.btnBlowouts100.Name = "btnBlowouts100";
+            this.btnBlowouts100.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts100.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts100.TabIndex = 40;
+            this.btnBlowouts100.Text = "Sour Well Blowouts (100 kg/s)";
+            this.btnBlowouts100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts100.UseVisualStyleBackColor = false;
+            this.btnBlowouts100.Click += new System.EventHandler(this.togglePanel);
+            // 
+            // btnBlowouts50
+            // 
+            this.btnBlowouts50.AccessibleName = "Blowouts50";
+            this.btnBlowouts50.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts50.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts50.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts50.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts50.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts50.Location = new System.Drawing.Point(0, 164);
+            this.btnBlowouts50.Name = "btnBlowouts50";
+            this.btnBlowouts50.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts50.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts50.TabIndex = 39;
+            this.btnBlowouts50.Text = "Sour Well Blowouts (50 kg/s)";
+            this.btnBlowouts50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts50.UseVisualStyleBackColor = false;
+            this.btnBlowouts50.Click += new System.EventHandler(this.togglePanel);
+            // 
+            // btnBlowouts30
+            // 
+            this.btnBlowouts30.AccessibleName = "Blowouts30";
+            this.btnBlowouts30.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts30.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts30.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts30.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts30.Location = new System.Drawing.Point(0, 123);
+            this.btnBlowouts30.Name = "btnBlowouts30";
+            this.btnBlowouts30.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts30.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts30.TabIndex = 38;
+            this.btnBlowouts30.Text = "Sour Well Blowouts (30 kg/s)";
+            this.btnBlowouts30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts30.UseVisualStyleBackColor = false;
+            this.btnBlowouts30.Click += new System.EventHandler(this.togglePanel);
+            // 
+            // btnBlowouts20
+            // 
+            this.btnBlowouts20.AccessibleName = "Blowouts20";
+            this.btnBlowouts20.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts20.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts20.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts20.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts20.Location = new System.Drawing.Point(0, 82);
+            this.btnBlowouts20.Name = "btnBlowouts20";
+            this.btnBlowouts20.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts20.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts20.TabIndex = 37;
+            this.btnBlowouts20.Text = "Sour Well Blowouts (20 kg/s)";
+            this.btnBlowouts20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts20.UseVisualStyleBackColor = false;
+            this.btnBlowouts20.Click += new System.EventHandler(this.togglePanel);
+            // 
+            // btnBlowouts10
+            // 
+            this.btnBlowouts10.AccessibleName = "Blowouts10";
+            this.btnBlowouts10.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts10.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts10.Location = new System.Drawing.Point(0, 41);
+            this.btnBlowouts10.Name = "btnBlowouts10";
+            this.btnBlowouts10.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts10.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts10.TabIndex = 36;
+            this.btnBlowouts10.Text = "Sour Well Blowouts (10 kg/s)";
+            this.btnBlowouts10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts10.UseVisualStyleBackColor = false;
+            this.btnBlowouts10.Click += new System.EventHandler(this.togglePanel);
+            // 
+            // btnBlowouts5
+            // 
+            this.btnBlowouts5.AccessibleName = "Blowouts5";
+            this.btnBlowouts5.BackColor = System.Drawing.Color.Transparent;
+            this.btnBlowouts5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBlowouts5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBlowouts5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBlowouts5.FlatAppearance.BorderSize = 0;
+            this.btnBlowouts5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnBlowouts5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBlowouts5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBlowouts5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnBlowouts5.Location = new System.Drawing.Point(0, 0);
+            this.btnBlowouts5.Name = "btnBlowouts5";
+            this.btnBlowouts5.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
+            this.btnBlowouts5.Size = new System.Drawing.Size(305, 41);
+            this.btnBlowouts5.TabIndex = 35;
+            this.btnBlowouts5.Text = "Sour Well Blowouts (5 kg/s)";
+            this.btnBlowouts5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBlowouts5.UseVisualStyleBackColor = false;
+            this.btnBlowouts5.Click += new System.EventHandler(this.togglePanel);
+            // 
+            // btnWellBlowouts
+            // 
+            this.btnWellBlowouts.AccessibleName = "WellBlowouts";
+            this.btnWellBlowouts.BackColor = System.Drawing.Color.Transparent;
+            this.btnWellBlowouts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnWellBlowouts.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWellBlowouts.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnWellBlowouts.FlatAppearance.BorderSize = 0;
+            this.btnWellBlowouts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnWellBlowouts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
+            this.btnWellBlowouts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWellBlowouts.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellBlowouts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
+            this.btnWellBlowouts.Location = new System.Drawing.Point(0, 328);
+            this.btnWellBlowouts.Name = "btnWellBlowouts";
+            this.btnWellBlowouts.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnWellBlowouts.Size = new System.Drawing.Size(305, 41);
+            this.btnWellBlowouts.TabIndex = 36;
+            this.btnWellBlowouts.Text = "Sour Well Blowouts";
+            this.btnWellBlowouts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnWellBlowouts.UseVisualStyleBackColor = false;
+            this.btnWellBlowouts.Click += new System.EventHandler(this.toggleSubtree5);
+            // 
             // btnH2S
             // 
             this.btnH2S.AccessibleName = "H2S";
@@ -1024,7 +1200,7 @@
             this.ExcelNotSupportedPanel.Controls.Add(this.label2);
             this.ExcelNotSupportedPanel.Controls.Add(this.label1);
             this.ExcelNotSupportedPanel.Location = new System.Drawing.Point(0, 0);
-            this.ExcelNotSupportedPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExcelNotSupportedPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ExcelNotSupportedPanel.Name = "ExcelNotSupportedPanel";
             this.ExcelNotSupportedPanel.Size = new System.Drawing.Size(634, 59);
             this.ExcelNotSupportedPanel.TabIndex = 0;
@@ -1081,176 +1257,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Excel not installed";
             // 
-            // subtreePanel5
-            // 
-            this.subtreePanel5.Controls.Add(this.btnBlowouts100);
-            this.subtreePanel5.Controls.Add(this.btnBlowouts50);
-            this.subtreePanel5.Controls.Add(this.btnBlowouts30);
-            this.subtreePanel5.Controls.Add(this.btnBlowouts20);
-            this.subtreePanel5.Controls.Add(this.btnBlowouts10);
-            this.subtreePanel5.Controls.Add(this.btnBlowouts5);
-            this.subtreePanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subtreePanel5.Location = new System.Drawing.Point(0, 369);
-            this.subtreePanel5.Name = "subtreePanel5";
-            this.subtreePanel5.Size = new System.Drawing.Size(305, 262);
-            this.subtreePanel5.TabIndex = 35;
-            this.subtreePanel5.Visible = false;
-            // 
-            // btnBlowouts100
-            // 
-            this.btnBlowouts100.AccessibleName = "Blowouts100";
-            this.btnBlowouts100.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts100.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts100.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts100.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts100.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts100.Location = new System.Drawing.Point(0, 205);
-            this.btnBlowouts100.Name = "btnBlowouts100";
-            this.btnBlowouts100.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
-            this.btnBlowouts100.Size = new System.Drawing.Size(305, 41);
-            this.btnBlowouts100.TabIndex = 40;
-            this.btnBlowouts100.Text = "Sour Well Blowouts (100 kg/s)";
-            this.btnBlowouts100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts100.UseVisualStyleBackColor = false;
-            // 
-            // btnBlowouts50
-            // 
-            this.btnBlowouts50.AccessibleName = "Blowouts50";
-            this.btnBlowouts50.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts50.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts50.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts50.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts50.Location = new System.Drawing.Point(0, 164);
-            this.btnBlowouts50.Name = "btnBlowouts50";
-            this.btnBlowouts50.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
-            this.btnBlowouts50.Size = new System.Drawing.Size(305, 41);
-            this.btnBlowouts50.TabIndex = 39;
-            this.btnBlowouts50.Text = "Sour Well Blowouts (50 kg/s)";
-            this.btnBlowouts50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts50.UseVisualStyleBackColor = false;
-            // 
-            // btnBlowouts30
-            // 
-            this.btnBlowouts30.AccessibleName = "Blowouts30";
-            this.btnBlowouts30.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts30.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts30.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts30.Location = new System.Drawing.Point(0, 123);
-            this.btnBlowouts30.Name = "btnBlowouts30";
-            this.btnBlowouts30.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
-            this.btnBlowouts30.Size = new System.Drawing.Size(305, 41);
-            this.btnBlowouts30.TabIndex = 38;
-            this.btnBlowouts30.Text = "Sour Well Blowouts (30 kg/s)";
-            this.btnBlowouts30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts30.UseVisualStyleBackColor = false;
-            // 
-            // btnBlowouts20
-            // 
-            this.btnBlowouts20.AccessibleName = "Blowouts20";
-            this.btnBlowouts20.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts20.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts20.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts20.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts20.Location = new System.Drawing.Point(0, 82);
-            this.btnBlowouts20.Name = "btnBlowouts20";
-            this.btnBlowouts20.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
-            this.btnBlowouts20.Size = new System.Drawing.Size(305, 41);
-            this.btnBlowouts20.TabIndex = 37;
-            this.btnBlowouts20.Text = "Sour Well Blowouts (20 kg/s)";
-            this.btnBlowouts20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts20.UseVisualStyleBackColor = false;
-            // 
-            // btnBlowouts10
-            // 
-            this.btnBlowouts10.AccessibleName = "Blowouts10";
-            this.btnBlowouts10.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts10.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts10.Location = new System.Drawing.Point(0, 41);
-            this.btnBlowouts10.Name = "btnBlowouts10";
-            this.btnBlowouts10.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
-            this.btnBlowouts10.Size = new System.Drawing.Size(305, 41);
-            this.btnBlowouts10.TabIndex = 36;
-            this.btnBlowouts10.Text = "Sour Well Blowouts (10 kg/s)";
-            this.btnBlowouts10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts10.UseVisualStyleBackColor = false;
-            // 
-            // btnBlowouts5
-            // 
-            this.btnBlowouts5.AccessibleName = "Blowouts5";
-            this.btnBlowouts5.BackColor = System.Drawing.Color.Transparent;
-            this.btnBlowouts5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnBlowouts5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBlowouts5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBlowouts5.FlatAppearance.BorderSize = 0;
-            this.btnBlowouts5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnBlowouts5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlowouts5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnBlowouts5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnBlowouts5.Location = new System.Drawing.Point(0, 0);
-            this.btnBlowouts5.Name = "btnBlowouts5";
-            this.btnBlowouts5.Padding = new System.Windows.Forms.Padding(45, 0, 15, 0);
-            this.btnBlowouts5.Size = new System.Drawing.Size(305, 41);
-            this.btnBlowouts5.TabIndex = 35;
-            this.btnBlowouts5.Text = "Sour Well Blowouts (5 kg/s)";
-            this.btnBlowouts5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBlowouts5.UseVisualStyleBackColor = false;
-            // 
-            // btnWellBlowouts
-            // 
-            this.btnWellBlowouts.AccessibleName = "WellBlowouts";
-            this.btnWellBlowouts.BackColor = System.Drawing.Color.Transparent;
-            this.btnWellBlowouts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnWellBlowouts.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnWellBlowouts.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnWellBlowouts.FlatAppearance.BorderSize = 0;
-            this.btnWellBlowouts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnWellBlowouts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(44)))));
-            this.btnWellBlowouts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWellBlowouts.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnWellBlowouts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(199)))), ((int)(((byte)(206)))));
-            this.btnWellBlowouts.Location = new System.Drawing.Point(0, 328);
-            this.btnWellBlowouts.Name = "btnWellBlowouts";
-            this.btnWellBlowouts.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
-            this.btnWellBlowouts.Size = new System.Drawing.Size(305, 41);
-            this.btnWellBlowouts.TabIndex = 36;
-            this.btnWellBlowouts.Text = "Sour Well Blowouts";
-            this.btnWellBlowouts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnWellBlowouts.UseVisualStyleBackColor = false;
-            this.btnWellBlowouts.Click += new System.EventHandler(this.toggleSubtree5);
-            // 
             // InitPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1272,10 +1278,10 @@
             this.subtreePanel4.ResumeLayout(false);
             this.subtreePanel3.ResumeLayout(false);
             this.subtreePanel1.ResumeLayout(false);
+            this.subtreePanel5.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.ExcelNotSupportedPanel.ResumeLayout(false);
             this.ExcelNotSupportedPanel.PerformLayout();
-            this.subtreePanel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

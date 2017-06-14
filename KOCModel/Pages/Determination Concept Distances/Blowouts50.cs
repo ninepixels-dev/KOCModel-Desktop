@@ -8,8 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KOCModel
-{
+namespace KOCModel {
     public partial class Blowouts50 : UserControl {
         public Blowouts50() {
             InitializeComponent();
@@ -21,19 +20,19 @@ namespace KOCModel
                 double result = 0;
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 2200 * Math.Pow(value, 0.95);
+                result = 2165.5 * Math.Pow(value, 0.9496);
                 lblValue1.Text = Math.Round(result).ToString();
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 2200 * Math.Pow(value, 0.95);
+                result = 2316.7 * Math.Pow(value, 0.9432);
                 lblValue2.Text = Math.Round(result).ToString();
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 3500 * Math.Pow(value, 0.75);
+                result = 4118 * Math.Pow(value, 0.8177);
                 lblValue3.Text = Math.Round(result).ToString();
 
                 value = double.Parse(textBox1.Text) / 100;
-                result = 6000 * Math.Pow(value, 0.62);
+                result = 6676.5 * Math.Pow(value, 0.6682);
                 lblValue4.Text = Math.Round(result).ToString();
 
                 notificationPanel.Show();
