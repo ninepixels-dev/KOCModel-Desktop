@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.001.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KOCModel", "KOCModel.csproj", "{A237258B-6617-4A4D-AB67-037CEC3BDE47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A237258B-6617-4A4D-AB67-037CEC3BDE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A237258B-6617-4A4D-AB67-037CEC3BDE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A237258B-6617-4A4D-AB67-037CEC3BDE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A237258B-6617-4A4D-AB67-037CEC3BDE47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D39F97B-D4B0-41CF-803F-21788CAE2791}
+	EndGlobalSection
+EndGlobal

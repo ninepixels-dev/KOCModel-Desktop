@@ -31,7 +31,7 @@ namespace KOCModel {
                 double a = Math.Pow(D, 2) / 32000 + D / 160 + 11;
                 double b = P / 32 + 1.4;
 
-                double x = 10 * (Q * a + b) / 10;
+                double x = 10 * (Q * a * b) / 10;
 
                 lblValue.Text = x.ToString();
             }
