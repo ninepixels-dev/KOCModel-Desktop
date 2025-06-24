@@ -38,10 +38,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(360, 127);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(180, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(794, 66);
+            this.label3.Size = new System.Drawing.Size(397, 33);
             this.label3.TabIndex = 15;
             this.label3.Text = "Detailed Design (PGS) Field Spacing";
             // 
@@ -49,24 +48,22 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(364, 246);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(182, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1432, 496);
+            this.label2.Size = new System.Drawing.Size(716, 258);
             this.label2.TabIndex = 17;
             this.label2.Text = resources.GetString("label2.Text");
             // 
             // DetailedDesignField
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "DetailedDesignField";
-            this.Size = new System.Drawing.Size(2170, 1477);
+            this.Size = new System.Drawing.Size(1085, 768);
             this.ResumeLayout(false);
             this.PerformLayout();
 

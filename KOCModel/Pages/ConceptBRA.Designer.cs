@@ -39,10 +39,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(360, 127);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(180, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(645, 66);
+            this.label3.Size = new System.Drawing.Size(323, 33);
             this.label3.TabIndex = 15;
             this.label3.Text = "Concept BRA Considerations";
             // 
@@ -50,10 +49,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(364, 235);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(182, 122);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1432, 1492);
+            this.label2.Size = new System.Drawing.Size(716, 776);
             this.label2.TabIndex = 17;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -62,26 +60,25 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(364, 1508);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(182, 784);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1432, 88);
+            this.label1.Size = new System.Drawing.Size(716, 46);
             this.label1.TabIndex = 18;
             this.label1.Text = "Further information in relation to these aspects is given in the Guidelines, Sect" +
-    "ion 11.2.2.";
+    "ion 8.2.1 ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ConceptBRA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "ConceptBRA";
-            this.Size = new System.Drawing.Size(2170, 1727);
+            this.Size = new System.Drawing.Size(1085, 898);
             this.ResumeLayout(false);
             this.PerformLayout();
 

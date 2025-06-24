@@ -237,6 +237,7 @@
             this.btnPlantGasLines.Text = "Run Gas Lines Model";
             this.btnPlantGasLines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPlantGasLines.UseVisualStyleBackColor = false;
+            this.btnPlantGasLines.Visible = false;
             this.btnPlantGasLines.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnPlantLiquidProduct
@@ -260,6 +261,7 @@
             this.btnPlantLiquidProduct.Text = "Run Liquid Product Lines Model";
             this.btnPlantLiquidProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPlantLiquidProduct.UseVisualStyleBackColor = false;
+            this.btnPlantLiquidProduct.Visible = false;
             this.btnPlantLiquidProduct.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnPlantWellFlowlines
@@ -283,6 +285,7 @@
             this.btnPlantWellFlowlines.Text = "Run Well Flowlines Model";
             this.btnPlantWellFlowlines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPlantWellFlowlines.UseVisualStyleBackColor = false;
+            this.btnPlantWellFlowlines.Visible = false;
             this.btnPlantWellFlowlines.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnPlantPersonnel
@@ -306,6 +309,7 @@
             this.btnPlantPersonnel.Text = "Risk to Plant Personnel";
             this.btnPlantPersonnel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPlantPersonnel.UseVisualStyleBackColor = false;
+            this.btnPlantPersonnel.Visible = false;
             this.btnPlantPersonnel.Click += new System.EventHandler(this.toggleSubtree4);
             // 
             // subtreePanel3
@@ -343,6 +347,7 @@
             this.btnPublicGasLines.Text = "Run Gas Lines Model";
             this.btnPublicGasLines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPublicGasLines.UseVisualStyleBackColor = false;
+            this.btnPublicGasLines.Visible = false;
             this.btnPublicGasLines.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnPublicLiquidProduct
@@ -366,6 +371,7 @@
             this.btnPublicLiquidProduct.Text = "Run Liquid Product Lines Model";
             this.btnPublicLiquidProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPublicLiquidProduct.UseVisualStyleBackColor = false;
+            this.btnPublicLiquidProduct.Visible = false;
             this.btnPublicLiquidProduct.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnPublicWellFlowlines
@@ -389,6 +395,7 @@
             this.btnPublicWellFlowlines.Text = "Run Well Flowlines Model";
             this.btnPublicWellFlowlines.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPublicWellFlowlines.UseVisualStyleBackColor = false;
+            this.btnPublicWellFlowlines.Visible = false;
             this.btnPublicWellFlowlines.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnRiskPublic
@@ -412,6 +419,7 @@
             this.btnRiskPublic.Text = "Risk to Public";
             this.btnRiskPublic.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRiskPublic.UseVisualStyleBackColor = false;
+            this.btnRiskPublic.Visible = false;
             this.btnRiskPublic.Click += new System.EventHandler(this.toggleSubtree3);
             // 
             // btnExceedanceModel
@@ -435,6 +443,7 @@
             this.btnExceedanceModel.Text = "Run Explosion Exceedance Model";
             this.btnExceedanceModel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExceedanceModel.UseVisualStyleBackColor = false;
+            this.btnExceedanceModel.Visible = false;
             this.btnExceedanceModel.Click += new System.EventHandler(this.togglePanel);
             // 
             // btnDeterminationFEEDDistances
@@ -458,6 +467,7 @@
             this.btnDeterminationFEEDDistances.Text = "Determination of FEED Distances";
             this.btnDeterminationFEEDDistances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDeterminationFEEDDistances.UseVisualStyleBackColor = false;
+            this.btnDeterminationFEEDDistances.Visible = false;
             this.btnDeterminationFEEDDistances.Click += new System.EventHandler(this.toggleSubtree2);
             // 
             // btnFEEDBRAConsiderations

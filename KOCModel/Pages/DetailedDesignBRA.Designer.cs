@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetailedDesignBRA));
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
@@ -38,10 +39,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(360, 127);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(180, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(841, 66);
+            this.label3.Size = new System.Drawing.Size(426, 33);
             this.label3.TabIndex = 15;
             this.label3.Text = "BRA Phase 3 – Additional Assessment";
             // 
@@ -49,24 +49,35 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(364, 238);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(182, 124);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1432, 977);
+            this.label2.Size = new System.Drawing.Size(716, 508);
             this.label2.TabIndex = 17;
             this.label2.Text = resources.GetString("label2.Text");
             // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(182, 450);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(716, 35);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Further information in relation to these aspects is given in the Guidelines, Sect" +
+    "ion 8.2.4";
+            // 
             // DetailedDesignBRA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "DetailedDesignBRA";
-            this.Size = new System.Drawing.Size(2170, 1477);
+            this.Size = new System.Drawing.Size(1085, 768);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,5 +87,6 @@
 
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label7;
     }
 }

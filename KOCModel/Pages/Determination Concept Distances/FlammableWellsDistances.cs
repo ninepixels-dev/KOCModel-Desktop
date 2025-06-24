@@ -23,7 +23,7 @@ namespace KOCModel
             if (comboBox1.Text != "" && comboBox2.Text != "") {
                 for (int r = 1; r <= 2; r++) {
                     if (InitPage.excelValues.inputSheets.Cells[128 + r, 1].Value.ToString() == comboBox1.Text) {
-                        for (int c = 1; c <= 3; c++) {
+                        for (int c = 1; c <= 6; c++) {
                             if (InitPage.excelValues.inputSheets.Cells[128, c + 1].Value.ToString() == comboBox2.Text) {
                                 lblValue.Text = InitPage.excelValues.inputSheets.Cells[128 + r, c + 1].Value.ToString();
                             }
